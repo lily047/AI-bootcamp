@@ -1,0 +1,73 @@
+10/23/21, 12:40 PM OUT
+localhost:8888/nbconvert/html/OUT .ipynb?download=false 1/2Week 9 Graded Questions with Solutions
+1] You want to join a secret club, and you are told that you need to go to a specific place at
+midnight and say the password "ChennaiSuperKings". Which of the following is true about this
+setup? [MSQ: 3 points]
+1. It is role based access control
+2. It is attribute based access control
+3. It is discretionary access control
+4. It is mandatory access control
+Answer: Option 2 and 3.
+Solution: Not role based because there is no role associated with the access, and not mandatory
+because you can give the password and information to someone else.
+2] Which of the following are good characteristics of a function that can be used for digest
+authentication (assume that in y=f(x) , computing y given x is the forward computation and
+getting back x given y is the inverse computation)? [MCQ: 2 points]
+1. It should be easy to compute in the forward direction, but difficult to compute the inverse.
+2. It should be easy to compute the inverse, but not the forward function.
+3. Both forward and inverse functions should be easy to compute.
+4. Both forward and inverse functions should be difficult to compute.
+Answer: Option 1.
+Solution: Option 2 is not correct - if the forward is also difficult, then using the function itself will
+be impossible. Other two options are clearly wrong.
+3] In a Flask application, which of the following would typically be the place where you apply
+access control directives? [MCQ: 1 point]
+1. Model
+2. View
+3. Controller
+4. All of the above
+Answer: Option 3.
+Solution: Views and Models cannot be accessed directly in any case, only through appropriate
+controllers.
+4] HT TPS certificates are associated with _. [MCQ: 1 point]
+1. A domain name
+2. An individual person
+3. An IP address
+4. A company
+Answer: Option 1.
+==========================================================
+
+10/23/21, 12:40 PM OUT
+localhost:8888/nbconvert/html/OUT .ipynb?download=false 2/2Solution: Though it is usual to get a certificate for a company website, it does not mean the
+certificate is associated with the company itself, only with the domain name.
+5] In the picture shown below, there are some log entries corresponding to a Flask application.
+Which of the following data are being logged by this application? [MSQ: 3 points]
+Image..
+1. IP address of the client
+2. Type of HT TP request
+3. Operating system of the client
+4. Browser used by the client
+Answer: Option 1 and 2.
+Solution: Others are not being logged here.
+6] Log files tend to be: [MCQ: 2 points]
+1. Mostly read operations and few write operations.
+2. Mostly write operations and few read operations.
+3. Proportional in size to the number of requests the website receives.
+4. Constant in size independent of server load.
+Answer: Option 2.
+Solution: Log files are mostly write operations and few read operations. It may be possible to
+have contant log files under some specific logging scenarios, but that is not typical usage.
+7] Consider two statements on HT TPS given below: [MCQ: 2 points]
+Statement 1: HT TPS reduces load on servers as less information needs to be transmitted.  
+Statement 2: HT TPS is only used for humans to interact with web servers, and is not required for
+machine-to-machine communication.
+1. Both statement 1 and statement 2 are correct.
+2. Both statement 1 and statement 2 are incorrect.
+3. Statement 1 is correct, statement 2 is incorrect.
+4. Statement 2 is correct, statement 1 is incorrect.
+Answer: Option 2.
+Solution: Generally after encryption the size of data and headers would increase a bit, not
+decrease. HT TPS is just as essential for machine-to-machine communication to avoid leaking
+information.
+==========================================================
+
