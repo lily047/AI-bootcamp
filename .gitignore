@@ -1,5 +1,17 @@
-local_setup.sh 
+fast-api_app/local_setup.sh 
+fast-api_app/local_run.sh 
+fast-api_app/.venv
+
 
 day3_4/local_setup.sh
 day3_4/local_run.sh
 day3_4/.env
+
+assignments/fastapi/local_setup.sh 
+assignments/fastapi/local_run.sh 
+assignments/fastapi/debug.log
+
+online_classes/day_3/local_run.sh 
+online_classes/day_3/local_setup.sh 
+online_classes/day_3/.env 
+online_classes/day_3/.venv/
